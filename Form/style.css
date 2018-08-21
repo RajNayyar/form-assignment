@@ -1,0 +1,55 @@
+body{
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+body h2{
+    text-align: center;
+}
+.form-entry{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-left: 15%;
+}
+.form-entry input{
+    width:200px;
+    height: 35px;
+    text-align: center;
+}
+.form-entry label{
+    width: 100px;
+}
+.form-entry p {
+    width: 300px;
+}
+.required{
+    border-left: 4px solid red;
+}
+.radio{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.radio input{
+    width:100px;
+    height: 35px;
+    text-align: center;
+}
+.citysubmit {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+#city-validation{
+    text-align: center;
+}
+#gender-validation{
+    text-align: center;
+}
