@@ -1,4 +1,5 @@
 body{
+    font-family: sans-serif;
     width: 1024px;
     margin: 0 auto;
     border: 1px solid;
@@ -24,6 +25,9 @@ body h2{
 }
 .form-entry p {
     width: 300px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: red;
 }
 .required{
     border-left: 4px solid red;
@@ -49,7 +53,9 @@ body h2{
 }
 #city-validation{
     text-align: center;
+    color: red;
 }
 #gender-validation{
     text-align: center;
+    color: red;
 }
