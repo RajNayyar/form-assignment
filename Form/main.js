@@ -1,4 +1,4 @@
-      // Form validation code will come here.
+//      // Form validation code will come here.
       function validate(){   
           var flag = 0;
           document.getElementById("firstname-validation").innerHTML = "";
@@ -67,6 +67,7 @@
         flag = 1;
         }
         if(flag==0){
-            location.replace = 'newPage.html';
+            //location.replace = 'newPage.html';
+              alert("form submitted successfully");
         }
       }
