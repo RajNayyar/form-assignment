@@ -1,5 +1,4 @@
-//      // Form validation code will come here.
-      function validate(){   
+         function validate(){   
           var flag = 0;
           document.getElementById("firstname-validation").innerHTML = "";
           document.getElementById("phoneno-validation").innerHTML = "";
