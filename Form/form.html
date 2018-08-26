@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+<body>
+<h2>Registration Form</h2>
+<form name = "myForm">
+    <div class="form-entry" >
+        <input placeholder="Firstname" type="text" id="firstname" class="required"><p id="firstname-validation"></p>
+    </div>
+    <div class="form-entry">
+        <input placeholder="Lastname" type="text" id="lastname"><p id="lastname-validation"></p>
+    </div>
+    <div class="form-entry">
+    <input  placeholder="Phone Number" type="text" id="phoneno" class="required"><br><p id="phoneno-validation"></p>
+    </div>
+    <div class="form-entry">
+            <input  placeholder="E-Mail" type="text" id="email" class="required"><br><p id="email-validation"></p>
+    </div>
+    <div class="form-entry">
+        <input  placeholder="Residential Address" type="text" id="address"><br><p id="address-validation"></p>
+    </div>
+    <div>
+        <p id="city-validation"></p>
+    </div>
+    <div class="citysubmit">
+        <label>City:</label>
+        <select id = "city">
+            <option> None </option>
+            <option> Chandigarh </option>
+            <option> Delhi </option>
+            <option> Hyderabad </option>
+            <option> Mumbai </option>
+            <option> Pune </option>    
+        </select>
+    </div>
+     <div>
+        <p id="gender-validation"></p>
+    </div>
+    <div class="radio">
+        <label>Gender</label>
+        <input type="radio" class='gender-radio-option' name="gender" value="male"> <p>Male</p>
+        <input type="radio" class='gender-radio-option' name="gender" value="female"> <p>Female</p>
+        <input type="radio" class='gender-radio-option' name="gender" value="other"> <p>other</p> 
+    </div>
+    <div class="citysubmit">
+    <input type="button" onclick="validate()" value="Submit">
+    </div>
+</form> 
+</body>
+</html>
